@@ -1,5 +1,5 @@
 a:hover {
-  color: orange !important;
+  color: grey !important;
 }
 
 header .container {
@@ -8,7 +8,7 @@ header .container {
 }
 
 header nav {
-  background-color: #E7E5DF;
+  background-color: lightsteelblue;
   padding: 0 !important;
 }
 
@@ -24,7 +24,7 @@ header ul a {
 
 footer {
   padding: 5px 0px;
-  background-color: #E7E5DF;
+  background-color: lightsteelblue;
 }
 
 footer ul, footer ol {
