@@ -8,7 +8,7 @@ header .container {
 }
 
 header nav {
-  background-color: lightsteelblue;
+  background-color: #73c2fb;
   padding: 0 !important;
 }
 
@@ -24,7 +24,7 @@ header ul a {
 
 footer {
   padding: 5px 0px;
-  background-color: lightsteelblue;
+  background-color: #73c2fb;
 }
 
 footer ul, footer ol {
