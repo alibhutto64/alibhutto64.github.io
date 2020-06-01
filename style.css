@@ -1,14 +1,30 @@
+a:hover {
+  color: orange !important;
+}
+
 header .container {
   width: 80%;
   margin: auto;
 }
 
+header nav {
+  background-color: #E7E5DF;
+  padding: 0 !important;
+}
+
+header ul a {
+  color: #463030 !important;
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .context-dark {
-  color: rgba(255, 255, 255, 0.8);
+  color: #271313 !important;
 }
 
 footer {
-  padding: 20px 0px;
+  padding: 5px 0px;
+  background-color: #E7E5DF;
 }
 
 footer ul, footer ol {
@@ -18,31 +34,46 @@ footer ul, footer ol {
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-  color: #ffffff;
-}
-
-.nav-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.nav-list li a:hover {
-  color: lightcoral;
+  color: #271313 !important;
 }
 
 .bgimage {
   width: 100%;
-  max-height: 500px;
-  background: url("./main.jpg");
+  height: 500px;
+  background: url("./main.jpg") yellow;
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  background-attachment: fixed;
   margin-bottom: 0;
 }
 
 .bgimage h5 {
   color: white;
   text-shadow: 2px 2px #333;
+}
+
+.bgimage .display-5 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+#contact {
+  font-size: 13px;
+}
+
+#contact h5, #contact p {
+  margin: 0;
+}
+
+#developer {
+  color: white;
+  background-color: #A49694;
+}
+
+#developer a {
+  color: #e2d9d9 !important;
 }
 /*# sourceMappingURL=style.css.map */
