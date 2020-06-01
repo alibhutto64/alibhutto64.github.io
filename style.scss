@@ -1,23 +1,24 @@
-a:hover {
-    color: grey !important;
-}
+
 header {
     .container {
         width: 80%;
         margin: auto;
     }
     nav {
-        background-color:#73c2fb;
+        background-color:#101C3A;
         padding: 0 !important;    
     }
     ul a {
-        color: rgb(70, 48, 48) !important;
+        color: white !important;
         font-size: 14px;
         font-weight: bold;
     }
+    ul a:hover {
+        color: grey !important;
+    }
 }       
 .context-dark {
-    color: rgb(39, 19, 19) !important;
+    color: white !important;
 }
 footer {
     padding: 5px 0px;
@@ -26,10 +27,10 @@ footer {
         padding: 0;
         margin: 0;
     }
-    background-color:  #73c2fb;
+    background-color:  #101C3A;
 }
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: rgb(39, 19, 19) !important;
+    color: white !important;
 }
 
 
@@ -51,7 +52,6 @@ footer {
         font-weight: bold ;
         color: white;
         margin-bottom: 30px;
-        text-align: justify;
     }
   }
   #contact {

@@ -1,30 +1,30 @@
-a:hover {
-  color: grey !important;
-}
-
 header .container {
   width: 80%;
   margin: auto;
 }
 
 header nav {
-  background-color: #73c2fb;
+  background-color: #101C3A;
   padding: 0 !important;
 }
 
 header ul a {
-  color: #463030 !important;
+  color: white !important;
   font-size: 14px;
   font-weight: bold;
 }
 
+header ul a:hover {
+  color: grey !important;
+}
+
 .context-dark {
-  color: #271313 !important;
+  color: white !important;
 }
 
 footer {
   padding: 5px 0px;
-  background-color: #73c2fb;
+  background-color: #101C3A;
 }
 
 footer ul, footer ol {
@@ -34,7 +34,7 @@ footer ul, footer ol {
 }
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-  color: #271313 !important;
+  color: white !important;
 }
 
 .bgimage {
@@ -57,7 +57,6 @@ footer ul, footer ol {
   font-weight: bold;
   color: white;
   margin-bottom: 30px;
-  text-align: justify;
 }
 
 #contact {
