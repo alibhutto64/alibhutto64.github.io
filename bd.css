@@ -1,0 +1,46 @@
+@font-face {
+    font-family: dyna;
+    src: url(DynaPuff-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+}
+
+canvas {
+    display: block
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "dyna";
+    font-size: 3.4em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+img {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 250px;
+    height: auto;
+    border-radius: 20%;
+}
+
+body {
+    font-family: 'Segoe UI', 'San Francisco', Calibri, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
